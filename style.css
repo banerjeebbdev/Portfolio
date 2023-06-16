@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  
+
+  body{
+    background-color: rgb(0, 0, 33);
+    /* background-color:steelblue; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  nav{
+    display: flex;
+    justify-content:space-between;
+    height: 50px;
+    background-color: rgb(66, 51, 163);
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+
+  nav ul li {
+    margin-right:30px;
+    font-size: 18px;
+  }
+
+  div.left{
+    font-size: 28px;
+    padding-top:5px;
+    padding-left: 30px;
+  }
+  
+  .firstSection{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+
+  .firstSection > div {
+    width:35%;
+  }
+
+  .leftSection{
+    /* background-color: red; */
+    font-size: 40px;
+    margin-top: 200px;
+  }
+  .rightSection img {
+    /* background-color: red; */
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  span.name{
+    color: rgb(179, 105, 249);
+  }
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color:rgb(180, 180, 253);
+    font-size: 19px;
+}
+
+span#element{
+    color:rgb(179, 105, 249);
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    /* margin: 60px 84px; */
+    margin: 50px;
+    margin-top: 180px;
+}
+
+.secondSection h1{
+    font-size: 28px;
+    margin-left: 100px;
+}
+
+/* @keyframes sample {
+    from {left: 770px;}
+    to {left: 200px;}
+}
+    .secondSection .img-1 , .img-3 , .img-5 , .img-7{
+    animation-name: sample;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sample2 {
+    from {right: 900px;}
+    to {right: 450px;}
+}
+
+.secondSection .img-2 , .img-4 , .img-6{
+    animation-name: sample2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+} */
+
+.secondSection .verticalLine{
+    height:800px;
+    margin: auto ;
+    width: 2px;
+    background-color: white;
+    /* margin-left:220px */
+    margin-top: 100px;
+}
+
+
+
+.verticalLine .horizontalLine-1{
+    background-color:white;
+    height: 2px;
+    width: 200px;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 80px;
+    /* display: flex; */
+
+}
+
+ .verticalLine .img-1 {
+    /* margin-top: 50px; */
+    top: 10px;
+    height: 15%;
+    position: relative;
+    left: 200px;
+}
+
+.verticalLine .horizontalLine-2{
+    background-color:white;
+    height: 2px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    right: 200px;
+}
+
+.verticalLine .img-2 {
+    bottom: 20px;
+    height: 18%;
+    position: relative;
+    right: 340px;
+}
+
+.verticalLine .horizontalLine-3{
+    background-color:white;
+    height: 2px;
+    width: 200px;
+    position: relative;
+}
+
+.verticalLine .img-3 {
+    bottom: 50px;
+    height: 12%;
+    position: relative;
+    left: 215px;
+}
+
+.verticalLine .horizontalLine-4{
+    background-color:white;
+    height: 2px;
+    width: 200px;
+    position: relative;
+    /* top: 110px; */
+    right: 200px;
+}
+
+.verticalLine .img-4 {
+    bottom: 45px;
+    height: 10%;
+    position: relative;
+    right: 450px;
+}
+
+
+.verticalLine .horizontalLine-5{
+    background-color:white;
+    height: 2px;
+    width: 200px;
+    position: relative;
+    top: 20px;
+}
+
+
+.verticalLine .img-5 {
+    bottom: 40px;
+    height: 15%;
+    position: relative;
+    left: 180px;
+}
+
+.verticalLine .horizontalLine-6{
+    background-color:white;
+    height: 2px;
+    width: 200px;
+    position: relative;
+    top: 10px;
+    right: 200px;
+}
+
+.verticalLine .img-6 {
+    bottom: 40px;
+    height: 13%;
+    position: relative;
+    right: 330px;
+}
+
+.verticalLine .horizontalLine-7{
+    background-color:white;
+    height: 2px;
+    width: 200px;
+    position: relative;
+    top: 20px;
+}
+
+.verticalLine .img-7 {
+    bottom: 35px;
+    height: 13%;
+    position: relative;
+    left: 220px;
+}
+
+footer{
+    height:215px;
+    /* background-color: rgb(28, 28, 75); */
+    background-color: rgb(66, 51, 163);
+
+}
+
+footer .elem-1 {
+    font-size: 30px;
+    width: 7%;
+    margin: auto
+}
+
+
+footer .elem-2 {
+    font-size:14px;
+    width:30%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+
+footer .elem-3 {
+    /* margin-left: 50%; */
+    display: flex;
+    justify-content:center;
+    margin-top:15px
+}
+
+.elem-3 .one , .two , .three{
+    padding-left: 20px;
+}
+
+footer .elem-4{
+    width: 18%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.thirdSection h1{
+    font-size: 28px;
+    margin-left: 100px;
+}
+
+.thirdSection .projectFlexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    /* background-color: green; */
+    
+}
+
+.projectFlexContainer div{
+    height:400px;
+    width:500px;
+    /* border: 3px solid white; */
+    margin: 40px;  
+    
+}
+
+
+
+  .fig-1 , .fig-2 , .fig-4 , .fig-5 , .fig-3 , .fig-6{
+    height:300px;
+    width:500px;
+    
+}
+
+.fig-1:hover{
+    width: 480px;
+    height: 280px;
+    
+}
+
+.fig-2:hover{
+    width: 480px;
+    height: 280px;
+}
+
+.fig-3:hover{
+    width: 480px;
+    height: 280px;
+}
+
+.fig-4:hover{
+    width: 480px;
+    height: 280px;
+}
+
+.fig-5:hover{
+    width: 480px;
+    height: 280px;
+}
+
+.fig-6:hover{
+    width: 480px;
+    height: 280px;
+}
+
+.projectFlexContainer div p{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    
+}
+
+
+.aboutMeContainer{
+    /* height: auto;
+    width:100%; */
+    /* background-color:green; */
+    /* position: absolute; */
+}
+
+ .aboutMeContainer img{
+    height: 500px;
+    width:500px;
+    position: relative;
+    left: 1000px;
+    top:90px
+} 
+
+.aboutMeContainer h1{
+    position: relative;
+    bottom: 400px;
+    left:430px;
+    width: 300px;
+    font-size: 38px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutMeContainer h2{
+    width: 600px;
+    font-size: 24px;
+    font-family:  'Franklin Gothic Medium',Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    bottom: 250px;
+    left: 250px;
+}
+
+.aboutMeContainer button{
+    position: relative;
+    height: 50px;
+    width:150px;
+    bottom: 170px;
+    left: 251px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.aboutMeContainer button:hover{
+   opacity: 80%;
+}
+
+
